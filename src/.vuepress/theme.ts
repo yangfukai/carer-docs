@@ -13,9 +13,14 @@ export default hopeTheme({
   iconAssets: "iconfont",
 
   logo: "/logo.svg",
+  // 默认为 GitHub. 同时也可以是一个完整的 URL
+  repo: "/yangfukai/carer-docs",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
-
+  // 自定义仓库链接文字。默认从 `repo` 中自动推断为
+    // "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
+  repoLabel: "GitHub",
+  // 是否在导航栏内显示仓库链接，默认为 `true`
+  repoDisplay: false,
   docsDir: "demo/theme-docs/src",
 
   locales: {
