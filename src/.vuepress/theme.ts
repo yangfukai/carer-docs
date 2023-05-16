@@ -3,18 +3,18 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://yangfukai.github.io/carer-docs",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mrhope.site",
+    name: "Mr.carer",
+    url: "https://yangfukai.github.io/carer-docs",
   },
 
   iconAssets: "iconfont",
 
   logo: "/logo.svg",
   // 默认为 GitHub. 同时也可以是一个完整的 URL
-  repo: "/yangfukai/carer-docs",
+  repo: "yangfukai/carer-docs",
 
   // 自定义仓库链接文字。默认从 `repo` 中自动推断为
     // "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
@@ -34,7 +34,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "默认页脚",
+      footer: "秃然的卡尔",
 
       displayFooter: true,
 
@@ -50,7 +50,7 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: "Default footer",
+      footer: "carer",
 
       displayFooter: true,
 
@@ -71,7 +71,15 @@ export default hopeTheme({
   plugins: {
     comment: {
       // @ts-expect-error: You should generate and use your own comment service
-      provider: "Waline",
+      provider: "Giscus",
+      // 存放评论的仓库
+      repo： "yangfukai/carer-docs",
+      //仓库 ID
+      repoId: "R_kgDOJhKBog",
+      //讨论分类
+      category: "General",
+      //讨论分类 ID
+      categoryId: "DIC_kwDOJhKBos4CWgio"
     },
 
     // all features are enabled for demo, only preserve features you need here
