@@ -73,7 +73,7 @@ export default hopeTheme({
       // @ts-expect-error: You should generate and use your own comment service
       provider: "Giscus",
       // 存放评论的仓库
-      repo： "yangfukai/carer-docs",
+      repo: "yangfukai/carer-docs",
       //仓库 ID
       repoId: "R_kgDOJhKBog",
       //讨论分类
