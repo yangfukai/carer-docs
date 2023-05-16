@@ -1,10 +1,12 @@
 ---
 home: true
 icon: home
-title: 项目主页
+title: carer的主页
 heroImage: /logo.svg
-heroText: 项目名称
-tagline: 你可以在这里放置或是整个项目的描述。
+heroText: 卡尔的知识库
+tagline: 这里存放的是卡尔的脑存储哦！
+bgImage: http://file.mo7.cc/api/public/bz
+heroFullScreen: true
 actions:
   - text: 使用指南 💡
     link: /demo/
