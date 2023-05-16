@@ -1,5 +1,6 @@
 ---
 home: true
+layout: BlogHome
 icon: home
 title: carer的主页
 heroImage: /logo.svg
@@ -7,13 +8,13 @@ heroText: 卡尔的知识库
 tagline: 这里存放的是卡尔的脑存储哦！
 bgImage: http://file.mo7.cc/api/public/bz
 heroFullScreen: true
-actions:
-  - text: 使用指南 💡
-    link: /demo/
-    type: primary
-
-  - text: 文档
-    link: /guide/
+# actions:
+#   - text: 使用指南 💡
+#    link: /demo/
+#    type: primary
+#
+#  - text: 文档
+#    link: /guide/
 
 features:
   - title: Markdown 增强
