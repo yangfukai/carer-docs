@@ -1,6 +1,5 @@
 ---
 home: true
-layout: BlogHome
 icon: home
 title: carer的主页
 heroImage: /logo.svg
