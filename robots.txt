@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://yangfukai.github.io/carer-docs/carer-docs/sitemap.xml
